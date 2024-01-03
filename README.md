@@ -1,6 +1,6 @@
 # Reddit shorts creator
-creates youtube shorts using elevenlabs and reddit api
-BE WARNED MOST OF THIS CODE WAS WRITTEN OVER A YEAR AGO!! SO MOST OF IT IS GARBAGE!!
+creates youtube shorts using elevenlabs and reddit api     
+### BE WARNED MOST OF THIS CODE WAS WRITTEN OVER A YEAR AGO!! SO MOST OF IT IS GARBAGE!!
 ## Setup
 
 First clone the repo with git
