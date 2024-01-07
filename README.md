@@ -21,6 +21,7 @@ run `python main.py` on windows or `python3 main.py` on linux/mac
 
 ## Customization
 
-you do not need to use minecraft as the background, you can use anything.
-also if you don't like the default voice `Antoni` you can change in to any premade voice or any cloned voice, just change the `ELEVENLABS_VOICE` variable in `keys.py` to the name of your new voice.
-you can also change if the audio that is spoken is translated or not, and the the translation engine being used. look in `keys.py` to change this stuff
+you do not need to use minecraft as the background, you can use anything.   
+also if you don't like the default voice `Antoni` you can change in to any premade voice or any cloned voice, just change the `ELEVENLABS_VOICE` variable in `keys.py` to the name of your new voice.   
+
+you can also change if the audio that is spoken is translated or not, and the the translation engine being used. look in `keys.py` to change this stuff.
