@@ -13,7 +13,7 @@ Then install dependancies
 
 Next download a background video and change the `BACKGROUND_VIDEO` variable in `keys.py` to the path to your video
 
-Then get elevenlabs api key [here](elevenlabs.io/?from=partnermills8504) (I get a small commission if you use this link) and change the `ELEVENLABS_API_KEY` variable in `keys.py` to your api key
+Then get elevenlabs api key [here](https://elevenlabs.io/?from=partnermills8504) (I get a small commission if you use this link) and change the `ELEVENLABS_API_KEY` variable in `keys.py` to your api key
 
 Create an app with reddit and change the `REDDIT_CLIENT_ID` and `REDDIT_CLIENT_SECRET` in `keys.py` to what you get from reddit
 
