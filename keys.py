@@ -10,3 +10,10 @@ ELEVENLABS_VOICE = "Antoni" #change this to your preferred voice
 
 #MAKE SURE VIDEO IS 16:9
 BACKGROUND_VIDEO = "data/bg/mcbg.mp4" #change this to your preferred background video
+
+#TRANSLATION SETTINGS
+SHOULD_TRANSLATE = False #change this to True if you want to translate the video
+TARGET_LANGUAGE = "en" #change this to a language supported by elevenlabs.io
+TRANSLATION_ENGINE = "google" #change this to your preferred translation engine (anything supported by translators module)
+
+OUTPUT_FILE_NAME = "output.mp4" #change this to your preferred output file name

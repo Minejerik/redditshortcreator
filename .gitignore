@@ -3,3 +3,4 @@ __pycache__
 *.wav
 *.png
 geckodriver.log
+data/*

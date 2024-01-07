@@ -8,6 +8,7 @@ from time import sleep, time
 from moviepy.editor import concatenate_videoclips, VideoFileClip, CompositeVideoClip
 from colorama import Fore, Back, Style, init
 from elevenlabs import generate, play, set_api_key, voices
+import keys
 from keys import ELEVENLABS_API_KEY, REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT, BACKGROUND_VIDEO
 
 start = time()
@@ -72,7 +73,7 @@ finalclip = finalclip.resize(width=cropped_background.w)
 
 full = CompositeVideoClip([cropped_background, finalclip.set_pos((0,h/2-finalclip.h/2))])
 
-full.write_videofile("output.mp4", fps=30, threads=8, codec="h264_nvenc")
+full.write_videofile(keys.OUTPUT_FILE_NAME, fps=30, threads=8, codec="h264_nvenc")
 
 end = time()
 

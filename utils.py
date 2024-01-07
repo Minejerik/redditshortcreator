@@ -1,5 +1,7 @@
 from os import system, name
 from moviepy.editor import ImageClip, AudioFileClip, concatenate_videoclips
+import keys
+import translators as ts
 
 
 words =[
@@ -81,6 +83,9 @@ def cleantext(text):
             text = text.replace(temp, "no .")
     for i in range(0, len(words)):
         text = text.replace(words[i], cleanwords[i])
+        
+    if keys.SHOULD_TRANSLATE:
+        text = ts.translate_text(text,translator=keys.TRANSLATION_ENGINE,to_language=keys.TARGET_LANGUAGE)
     
     return text
 
