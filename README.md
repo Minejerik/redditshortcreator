@@ -1,4 +1,4 @@
-# Reddit shorts creator
+# Reddit Shorts Sreator
 creates youtube shorts using elevenlabs and reddit api     
 ### BE WARNED MOST OF THIS CODE WAS WRITTEN OVER A YEAR AGO!! SO MOST OF IT IS GARBAGE!!
 ## Setup
